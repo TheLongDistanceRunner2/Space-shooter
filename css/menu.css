@@ -1,0 +1,18 @@
+h1 {
+    color: yellow;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button {
+    position: absolute;
+    top: 50%; 
+    margin-bottom: 40px;
+}
+
+div {
+    display: table;
+    width: 0%;
+    margin: 0 auto;
+    margin-top: 20px;
+}

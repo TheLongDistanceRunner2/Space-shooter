@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SPACE SHOOTER</title>
+        <link rel="shortcut icon" type="image/png" href="images/player.png"/>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+        <script src="js/Firebase.js" type="text/javascript"></script>
+        <!-- Always include the game stylesheet, the Game class, the GameObject class and index.js -->
+        <!-- These four must be included in all games. This code never changes.                -->
+        <link href="css/game.css" rel="stylesheet" type="text/css"/>    
+        <script src="js/hammer.min.js" type="text/javascript"></script>
+        <script src="js/CanvasGame.js" type="text/javascript"></script>  
+        <script src="js/GameObject.js" type="text/javascript"></script>
+        <script src="js/index2.js" type="text/javascript"></script>
+ 
+
+    
+
+
+        <!-- ***************************************************************************** -->
+        <!-- *************** THE CODE BELOW CAN BE DIFFERENT FOR EACH GAME *************** -->
+
+        <!-- Always include the game javascript that matches the html file name --> 
+        <script src="js/Menu.js" type="text/javascript"></script>
+        <script src="js/SpaceShooter.js" type="text/javascript"></script>
+
+
+        <script src="js/PlaceOnMap.js" type="text/javascript"></script>
+        <!-- Include any classes that extend from GameObject that are used in this game -->
+        <script src="js/ScrollingBackgroundImage.js" type="text/javascript"></script>
+        <script src="js/GameConsole.js" type="text/javascript"></script>
+        <script src="js/SpaceShooterCanvas.js" type="text/javascript"></script>
+        <script src="js/Button.js" type="text/javascript"></script>
+        <script src="js/StaticText.js" type="text/javascript"></script>
+        <script src="js/Player.js" type="text/javascript"></script>
+        <script src="js/Enemy.js" type="text/javascript"></script>
+        <script src="js/Missle.js" type="text/javascript"></script>
+        <script src="js/Explosion.js" type="text/javascript"></script>
+
+
+
+        
+
+
+        
+        
+        <!-- ************************* END OF GAME SPECIFIC CODE ************************* -->
+        <!-- ***************************************************************************** -->
+    </head>
+	
+	
+    <body style="width: 100VW; height: 100VH; margin: 0;">
+        <div id="gameContainer"> <!-- having a container will allow us to have a game that includes elements that are outside of the canvas -->
+            <canvas id="gameCanvas" tabindex="1"></canvas>
+
+            <!-- ***************************************************************************** -->
+            <!-- *************** THE CODE BELOW CAN BE DIFFERENT FOR EACH GAME *************** -->
+               
+            <!-- ************************* END OF GAME SPECIFIC CODE ************************* -->
+            <!-- ***************************************************************************** -->
+            
+        </div>
+    </body>
+</html>
