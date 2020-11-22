@@ -1,12 +1,4 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyDInOn4LQmMA5euu3p_wPpphFltOwRxb2Q",
-    authDomain: "space2-25d32.firebaseapp.com",
-    databaseURL: "https://space2-25d32.firebaseio.com",
-    projectId: "space2-25d32",
-    storageBucket: "space2-25d32.appspot.com",
-    messagingSenderId: "436507230093",
-    appId: "1:436507230093:web:cec0afde9b7762faf187c4",
-    measurementId: "G-JQB4B4WXHV"
   };
 
 // Initialize Firebase
